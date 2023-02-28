@@ -191,7 +191,7 @@
         </div>
       </div>
     </div>
-    <!-- Customizer toggler--><a class="position-fixed top-50 bg-light text-dark fw-medium border rounded-pill shadow text-decoration-none" href="#customizer" data-bs-toggle="offcanvas" style="right: -1.75rem; margin-top: -1rem; padding: .25rem .75rem; transform: rotate(-90deg); font-size: calc(var(--ar-body-font-size) * .8125); letter-spacing: .075rem; z-index: 1030;"><i class="ai-settings text-primary fs-base me-1 ms-n1"></i>Özelleştir</a>
+    <!-- Customizer toggler--><a class="position-fixed top-50 bg-light text-dark fw-medium border rounded-pill shadow text-decoration-none" href="#customizer" data-bs-toggle="offcanvas" style="right: -1.75rem; margin-top: -1rem; padding: .25rem .75rem; transform: rotate(-90deg); font-size: calc(var(--ar-body-font-size) * .8125); letter-spacing: .075rem; z-index: 1030;"><i class="fa-solid fa-gear text-primary fs-base me-1 ms-n1"></i>Özelleştir</a>
     <!-- Customizer offcanvas-->
     <div class="offcanvas offcanvas-end" id="customizer" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1">
       <div class="offcanvas-header border-bottom">
@@ -199,7 +199,7 @@
         <button class="btn-close" type="button" data-bs-dismiss="offcanvas"></button>
       </div>
       <div class="offcanvas-body">
-        <div class="d-flex align-items-center mb-3"><i class="ai-paint-roll text-muted fs-4 me-2"></i>
+        <div class="d-flex align-items-center mb-3"><i class="fa-solid fa-droplet text-muted fs-4 me-2"></i>
           <h5 class="mb-0">Renkler</h5>
         </div>
         <div class="row row-cols-3 g-3 mb-5" id="theme-colors">
@@ -244,7 +244,7 @@
             </div>
           </div>
         </div>
-        <div class="d-flex align-items-center mb-3"><i class="ai-align-left text-muted fs-4 me-2"></i>
+        <div class="d-flex align-items-center mb-3"><i class="fa-solid fa-text text-muted fs-4 me-2"></i>
           <h5 class="mb-0">Yazı <span class="text-muted fs-sm fw-normal">(1rem = 16px)</span></h5>
         </div>
         <div class="mb-5">
@@ -283,7 +283,7 @@
             </div>
           </div>
         </div>
-        <div class="d-flex align-items-center mt-n2 mb-3"><i class="ai-maximize text-muted fs-5 me-2"></i>
+        <div class="d-flex align-items-center mt-n2 mb-3"><i class="fa-solid fa-maximize text-muted fs-5 me-2"></i>
           <h5 class="mb-0">Kenarlar / Yuvarlama</h5>
         </div>
         <div class="mb-3">
@@ -536,7 +536,7 @@
             <div class="col-md-6 col-lg-5 col-xl-4 offset-xl-1 order-md-1" data-aos="fade-right" data-aos-duration="500" data-aos-offset="250" data-disable-parallax-down="md">
               <div class="pe-md-4 pe-lg-0"><span class="badge fs-sm bg-faded-primary text-primary mb-3 mb-lg-4">3. Adım</span>
                 <h3 class="h2 mb-3 mb-lg-4">Ürünleri Kaydedin</h3>
-                <p class="pb-1 pb-lg-0 mb-4 mb-lg-5">Fiyatı değişen ürünleri, stoğu biten ve/veya azalan ürünleri ve riskli ürünleri programın içerisinde yer alan bir TXT belgede bulabilirsiniz.</p><a class="btn btn-outline-primary rounded-pill" href="#">Get connected</a>
+                <p class="pb-1 pb-lg-0 mb-4 mb-lg-5">Fiyatı değişen ürünleri, stoğu biten ve/veya azalan ürünleri ve riskli ürünleri programın içerisinde yer alan bir TXT belgede bulabilirsiniz.</p><a class="btn btn-outline-primary rounded-pill" href="https://shopier.com/16070506">Kullanmaya Başla</a>
               </div>
             </div>
           </div>
@@ -595,8 +595,8 @@
               </div>
             </div>
             <div class="d-flex justify-content-center justify-content-md-end pt-4">
-              <button class="btn btn-icon btn-sm btn-outline-primary rounded-circle me-3" type="button" id="prev-testimonial"><i class="ai-arrow-left"></i></button>
-              <button class="btn btn-icon btn-sm btn-outline-primary rounded-circle" type="button" id="next-testimonial"><i class="ai-arrow-right"></i></button>
+              <button class="btn btn-icon btn-sm btn-outline-primary rounded-circle me-3" type="button" id="prev-testimonial"><i class="fa fa-arrow-left"></i></button>
+              <button class="btn btn-icon btn-sm btn-outline-primary rounded-circle" type="button" id="next-testimonial"><i class="fa fa-arrow-right"></i></button>
             </div>
           </div>
           <!-- CTA-->
@@ -779,7 +779,7 @@
               <div class="col-md-10 col-lg-8 col-xl-7 col-xxl-6 text-center py-5">
                 <h2 class="display-1 mb-4">Destek & İletişim</h2>
                 <p class="fs-xl pb-3 mb-3 mb-lg-4">SellerAmz 7/24 Yanınızda..</p>
-                <div class="d-sm-flex justify-content-center"><a class="btn btn-lg btn-warning rounded-pill w-100 w-sm-auto me-sm-4 mb-3 mb-sm-0" href="#">Online Destek</a><a class="btn btn-lg btn-outline-warning rounded-pill w-100 w-sm-auto" href="mailto:selleramzsoftware@gmail.com">E-posta</a></div>
+                <div class="d-sm-flex justify-content-center"><a class="btn btn-lg btn-warning rounded-pill w-100 w-sm-auto me-sm-4 mb-3 mb-sm-0" onclick="destekFunc()">Online Destek</a><a class="btn btn-lg btn-outline-warning rounded-pill w-100 w-sm-auto" href="mailto:selleramzsoftware@gmail.com">E-posta</a></div>
               </div>
             </div>
           </div>
@@ -796,7 +796,7 @@
                   <path fill="currentColor" d="M35.6,29c-1.1,3.4-5.4,4.4-7.9,1.9c-2.3-2.2-6.1-3.7-9.4-3.7c-3.1,0-7.5,1.8-10,4.1c-2.2,2-5.8,1.5-7.3-1.1c-1-1.8-1.2-4.1,0-6.2l0.6-1.1l0,0c0.6-0.7,4.4-5.2,12.5-5.7c0.5,1.8,2,3.1,3.9,3.1c2.2,0,4.1-1.9,4.1-4.2s-1.8-4.2-4.1-4.2c-2,0-3.6,1.4-4,3.3H7.7c-0.8,0-1.3-0.9-0.9-1.6l5.6-9.8c2.5-4.5,8.8-4.5,11.3,0L35.1,24C36,25.7,36.1,27.5,35.6,29z"></path>
                 </svg></span><span class="text-light">SellerAmz</span></a>
             <p class="fs-sm pb-2 pb-md-3 mb-3">SellerAmz Official Page</p>
-            <div class="d-flex"><a class="btn btn-icon btn-sm btn-secondary btn-facebook rounded-circle me-3" href="#"><i class="ai-facebook"></i></a><a class="btn btn-icon btn-sm btn-secondary btn-instagram rounded-circle me-3" href="#"><i class="ai-instagram"></i></a><a class="btn btn-icon btn-sm btn-secondary btn-linkedin rounded-circle" href="#"><i class="ai-linkedin"></i></a></div>
+            <div class="d-flex"><a class="btn btn-icon btn-sm btn-secondary btn-facebook rounded-circle me-3" href="/">selleramz</a><a class="btn btn-icon btn-sm btn-secondary btn-instagram rounded-circle me-3" href="https://instagram.com">instagram</a><a class="btn btn-icon btn-sm btn-secondary btn-linkedin rounded-circle" href="mailto:selleramzsoftware@gmail.com">e-posta</a></div>
           </div>
           <div class="col-md-8 col-lg-7 col-xl-6 offset-lg-2 offset-xl-3">
             <div class="row row-cols-1 row-cols-sm-3">
